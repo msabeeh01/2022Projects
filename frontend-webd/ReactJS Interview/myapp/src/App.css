@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+p {
+    color:black;
+}
+
+.center1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered{
+    text-align: center;
+}

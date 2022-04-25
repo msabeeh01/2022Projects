@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display:table;
+}
+
+label{
+    display:table-cell;
+    padding-right: 10px;
+}
+
+input{
+    display:table-cell;
+}
+
+form>p{
+    display:table-row;
+}

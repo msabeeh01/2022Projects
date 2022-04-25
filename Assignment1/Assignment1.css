@@ -1,0 +1,67 @@
+nav
+{
+    margin-top: 20px;
+}
+
+#submit
+{
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cadetblue;
+    border-radius: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.centeredDIV
+{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(121, 42, 13);
+    background-color: coral;
+}
+
+body
+{
+    background-color: cadetblue;
+}
+
+table
+{
+    margin:10px;
+}
+
+td
+{
+    padding:10px;
+}

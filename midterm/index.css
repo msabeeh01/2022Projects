@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+fieldset{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 .625em;
+}
+
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 200px;
+    vertical-align: top;
+}
+
+  /* use of pseudo css classes :valid */
+  input:valid {
+    width: 30%;
+    display: inline-block;
+  }
+
+  /* this css class will be toggled if validation fails for any input */
+  input:invalid {
+    background: pink;
+    border: 2px solid black;
+
+    display: inline-block;
+  }
+
+  #samechecklbl{
+      text-align: left;
+  }
+
+  h3{
+      text-align: center;
+
+  }
+
+    #flexcontainer{
+        display:flex;
+        justify-content: center;
+        
+    }

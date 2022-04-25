@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href= "assignment2css.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div class = 'centeredDIV'>
+
+        <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="Assignment2.html">Custom Gen</a></li>
+                    <li><a href="Assignment2pregen.html">Pre-Gen</a></li>
+                </ul>
+            </nav>
+        <!-- Navigation Bar -->
+
+        <!-- Page Text -->
+        <h1>Welcome to Assignment 2</h1>
+        <h1>Table Generator (FOR LOOPS)</h1>
+        <p>
+            Enter the number of columns and rows below to generate a custom table!
+        </p>
+        <!-- Page Text -->
+        
+        <!--User Input in form data-->
+        <form id="tableOptions">
+            <table id = "formTable">
+                <tr>
+                    <td>
+                        <label>Rows:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="rows" id="rows"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Cols:</label>
+                    </td>
+                    <td>
+                         <input type="text" name="columns" id="columns"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!--User Input in form data-->
+
+        <!-- Submit Button DIV -->
+        <div id = "submitter">
+            <input id="generate" type="button" value="Create Table!" onclick='createTable();'/>
+        </div>
+        <!-- Submit Button DIV -->
+
+        </div>
+
+        <!-- div to hold generated table from JS-->
+        <div id="customtableHolder">
+
+        </div>
+        <!-- div to hold generated table from JS-->
+
+        <p>
+            &copy;
+            Muhammad Sabeeh - 301184564 - Assignment 2
+        </p>
+
+        <script src="assignment2js.js"></script>
+    </body>
+</html> 

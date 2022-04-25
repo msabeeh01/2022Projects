@@ -1,0 +1,36 @@
+.SplashImageParent{
+    display:flex;
+    justify-content: center;
+    height:85vh;
+    background-color: aquamarine;
+    padding-top:20px;
+}
+
+.splashtext{
+    background-color: aliceblue;
+    width: 32%;
+    margin-left:10px;
+    padding:1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.splashImage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 70%;
+    padding:1vw;
+    text-align: center;
+
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+  }

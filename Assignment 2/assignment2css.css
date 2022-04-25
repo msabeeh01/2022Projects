@@ -1,0 +1,106 @@
+body
+{
+    background-color: white;
+    border-top: 2px dotted black;
+    padding:10px;
+    border-bottom: 2px dotted black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+p
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#formTable
+{
+    border: 1px solid black;
+}
+
+#formTable, td,tr
+{
+    padding:5px;
+}
+
+.centeredDIV
+{
+    margin: auto;
+    width: 60%;
+    width:fit-content;
+    border: 10px dashed black;
+    padding: 10px;
+    background-color: white;
+}
+
+#tableOptions
+{
+    margin: auto;
+}
+
+#formTable
+{
+    margin: auto
+}
+
+#submitter
+{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#customtableHolder
+{
+    margin: auto;
+    width:90%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    border-radius: 20px;
+    border: 3px  solid black;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: white
+  }
+
+  nav
+  {
+
+    margin:auto;
+    width:fit-content;
+  }
+
+  #customtableHolder, #customtabledHolder
+  {
+    margin-top:10px;
+  }

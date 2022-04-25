@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="Assignment1.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <div class = "centeredDIV">
+            <nav>
+                <ul>
+                    <li><a href="Assignment1.html">Metric</a></li>
+                    <li><a href="Assignment1_Imperial.html">Imperial</a></li>
+                </ul>
+            </nav>
+
+            <h2>BMR Imperial</h2>
+            <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="Age">Age: </label>
+    
+                    </td>
+    
+                    <td>
+                        <input type="Number" id="age" name="age" min = "1" max = "120"/>
+                    </td>
+                </tr>
+    
+                <tr>
+                <td>
+                    <label for="Height">Height (Inches): </label>
+                </td>
+                
+                <td>
+                    <input type="Number" id="height" name="Height" />
+                </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="Weight">Weight (LB): </label>
+                    </td>
+                    <td>
+                        <input type="Number" id="weight" name="weight" />
+                    </td>
+                </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" value="1.2" name="activityLevel1" id="activityLevel1">
+                        </td>
+                        <td>
+                            <label for ="activityLevel1">I am sedentary (little or no exercise)(1.2)</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <input type="radio" value="1.375" name="activityLevel2" id="activityLevel2">
+                        </td>
+                        <td>
+                            <label for ="activityLevel2">Lightly active (light exercise/sports 1-3 days/week)</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <input type="radio" value="1.55" name="activityLevel3" id="activityLevel3">
+                        </td>
+                        <td>
+                            <label for ="activityLevel3">Moderately active (moderate exercise/sports 3-5 days/week)</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <input type="radio" value="1.725" name="activityLevel4" id="activityLevel4">
+                        </td>
+                        <td>
+                            <label for ="activityLevel4">Very active (hard exercise/sports 6-7 days a week)</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <input type="radio" value="1.9" name="activityLevel5" id="activityLevel5">
+                        </td>
+                        <td>
+                            <label for ="activityLevel5">If you are extra active (very hard exercise/sports & a physical job</label>
+                        </td>
+                    </tr>
+                </table>
+            <input type="submit" id="submit" value="CalculateBMR">
+        </div>
+        <script src = "assignment1js.js">
+        </script>  
+        
+    </body>
+</html>

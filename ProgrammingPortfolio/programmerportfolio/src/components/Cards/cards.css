@@ -1,0 +1,32 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aquamarine;
+}
+
+
+
+.grid-container>.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:10px;
+    width:inherit;
+    background-color: aliceblue;
+    flex-direction: column;
+    transition: background 200ms, transform 200ms;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: rgb(4, 105, 92);
+    transform:scale(1.05);
+}
+
+.header{
+    background-color:aquamarine;
+    width:100%;
+    display:block;
+    text-align: center;
+}

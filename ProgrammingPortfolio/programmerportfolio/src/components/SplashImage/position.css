@@ -1,0 +1,10 @@
+.position{
+    display: block;
+    text-align: center;
+}
+
+.PositionParent{
+    text-align: center;
+    background-color: rgb(78, 207, 164);
+    padding: 10px;
+}
